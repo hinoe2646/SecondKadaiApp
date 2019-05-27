@@ -18,22 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIc-Jd-YJ9">
-                                <rect key="frame" x="100" y="70" width="235" height="25.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIc-Jd-YJ9">
+                                <rect key="frame" x="100" y="70" width="175" height="25.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mw-RM-QLZ">
-                                <rect key="frame" x="100" y="165.5" width="43" height="38"/>
+                                <rect key="frame" x="100" y="165.5" width="175" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="決定"/>
                                 <connections>
                                     <segue destination="p0T-w8-Xac" kind="show" id="s4p-nI-KGG"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ここ入力！" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fNe-Kn-RVU">
-                                <rect key="frame" x="100" y="115.5" width="128" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ここに入力！" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fNe-Kn-RVU">
+                                <rect key="frame" x="100" y="115.5" width="175" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -45,6 +45,9 @@
                             <constraint firstItem="fNe-Kn-RVU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="CA0-fB-4xV"/>
                             <constraint firstItem="xIc-Jd-YJ9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="ILn-Fk-qUh"/>
                             <constraint firstItem="0mw-RM-QLZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="LiS-gf-Jnh"/>
+                            <constraint firstItem="xIc-Jd-YJ9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xb8-IS-090"/>
+                            <constraint firstItem="0mw-RM-QLZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zzy-lV-0Yd"/>
+                            <constraint firstItem="fNe-Kn-RVU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gN7-oe-7I3"/>
                             <constraint firstItem="fNe-Kn-RVU" firstAttribute="top" secondItem="xIc-Jd-YJ9" secondAttribute="bottom" constant="20" id="q5B-H2-cLL"/>
                             <constraint firstItem="0mw-RM-QLZ" firstAttribute="top" secondItem="fNe-Kn-RVU" secondAttribute="bottom" constant="20" id="sj3-dG-5u8"/>
                         </constraints>
@@ -66,8 +69,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wV-WS-mfW">
-                                <rect key="frame" x="80" y="70" width="200" height="25.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wV-WS-mfW">
+                                <rect key="frame" x="87.5" y="70" width="200" height="25.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="MVm-mc-zL0"/>
                                 </constraints>
@@ -76,7 +79,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsF-Ok-VKV">
-                                <rect key="frame" x="80" y="125.5" width="43" height="38"/>
+                                <rect key="frame" x="80" y="125.5" width="215" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
@@ -86,10 +89,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="0wV-WS-mfW" firstAttribute="leading" secondItem="JXy-KL-Bix" secondAttribute="leading" constant="80" id="Cao-Nl-BNu"/>
                             <constraint firstItem="zsF-Ok-VKV" firstAttribute="top" secondItem="0wV-WS-mfW" secondAttribute="bottom" constant="30" id="MbE-hP-1tZ"/>
+                            <constraint firstItem="0wV-WS-mfW" firstAttribute="centerX" secondItem="qHE-CH-jYL" secondAttribute="centerX" id="fZF-8h-OF7"/>
                             <constraint firstItem="0wV-WS-mfW" firstAttribute="top" secondItem="JXy-KL-Bix" secondAttribute="top" constant="50" id="jWT-qY-fpn"/>
                             <constraint firstItem="zsF-Ok-VKV" firstAttribute="leading" secondItem="JXy-KL-Bix" secondAttribute="leading" constant="80" id="mPT-BG-iao"/>
+                            <constraint firstItem="zsF-Ok-VKV" firstAttribute="centerX" secondItem="qHE-CH-jYL" secondAttribute="centerX" id="wfB-wE-Hdh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JXy-KL-Bix"/>
                     </view>
