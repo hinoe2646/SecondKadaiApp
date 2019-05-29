@@ -16,7 +16,7 @@ class NameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        textArea.text = "こんにちは、\(argString!)さん"
+        textArea.text = "こんにちは、\n\(argString!)さん"
     }
     
     
